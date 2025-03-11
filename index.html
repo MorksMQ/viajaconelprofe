@@ -5,27 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viaja con el profe</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo/icon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/4df61fafd8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/fuentes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header class="header-acomodo">
+<body class="volkhov-regular">
+    <img class="mancha" src="images/recursos/mancha1.svg">
+    <header>
         <nav>
-            <div class="logo">
-                <img src="images/logo.png" alt="logo">
-            </div>
             <div>
-                <a href="">sobre nosotros</a>
-                <a href="">destinos</a>
-                <a href="">galerias</a>
-                <a href="">itinerario</a>
-                <a href="">experiencias</a>
-                <a href="">contacto</a>
-                <a href="">reserva</a>
-                <!-- boton para traducir -->
-                <button onclick="toggleTranslation()">en</button>
+                <a href=""><img src="images/logo/logo.png" alt=""></a>
+            </div>
+            <div class="volkhov-bold menu">
+                <a href="">Sobre nosotros</a>
+                <a href="">Destinos</a>
+                <a href="">Galerías</a>
+                <a href="">Itinerario</a>
+                <a href="">Experiencias</a>
+                <a href="">Contacto</a>
+                <a href="">Reserva</a>
+                <!-- Botón que cambia entre "EN" y "ES" -->
+                <button class="translate" id="translateBtn" onclick="toggleTranslation()">
+                    <i class="fa-solid fa-globe"></i>
+                </button>
             </div>
         </nav>
+
+        <!-- Google Translate (Oculto) -->
+        <div id="google_translate_element"></div>
     </header>
 
     <main>
@@ -37,7 +47,7 @@
 
                 <div>
                     <a href="">reserva</a>
-                    <a href="">proximos viajes</a>
+                    <a href="">próximos viajes</a>
                 </div>
             </div>
 
@@ -45,25 +55,128 @@
                 <!-- <img src="images/logotipo-vertical.png" alt=""> -->
             </div>
         </section>
+
+        <section class="mas-vendido">
+            <div>
+                <p>lo más vendido</p>
+                <h2>nuestros destinos</h2>
+            </div>
+
+            <div class="carrusel">
+                <div class="tarjeta">
+                    <img src="" alt="imagen del destino">
+                    <div>
+                        <div>
+                            <p>destino</p>
+                            <p>precio</p>
+                        </div>
+                        <div>
+                            <p>duracion del viaje</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="" alt="imagen del destino">
+                    <div>
+                        <div>
+                            <p>destino</p>
+                            <p>precio</p>
+                        </div>
+                        <div>
+                            <p>duracion del viaje</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <img src="" alt="imagen del destino">
+                    <div>
+                        <div>
+                            <p>destino</p>
+                            <p>precio</p>
+                        </div>
+                        <div>
+                            <p>duracion del viaje</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="itinerarios">
+            <div>
+                <p>fácil y rápido</p>
+                <h2>itinerarios</h2>
+
+                <div>
+                    <div>
+                        <i class="fa-solid fa-image"></i>
+                        <div>
+                            <p>escoge el mejor destino</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ex!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-image"></i>
+                        <div>
+                            <p>escoge el mejor destino</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ex!</p>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-image"></i>
+                        <div>
+                            <p>escoge el mejor destino</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ex!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <div>
+                        <p>el viaje</p>
+                        <p>duración del viaje</p>
+                        <div>
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div>
+                            <p>mas de # personas tomaron este viaje</p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="empresas">
+            <img src="images/aerolineas/aeromexico.webp" alt="">
+            <img src="images/aerolineas/Avianca.png" alt="">
+            <img src="images/aerolineas/JetSmart.svg.png" alt="">
+            <img src="images/aerolineas/latam.svg" alt="">
+            <img src="images/aerolineas/Volaris-logo.svg.png" alt="">
+        </section>
     </main>
 
     <footer>
         <section>
             <div>
-                <img src="images/logo.png" alt="">
+                <img src="images/logo/logo.png" alt="">
             </div>
 
             <div>
-                <p>compañia</p>
+                <p>compañía</p>
                 <a href="">sobre nosotros</a>
-                <a href="">presios</a>
+                <a href="">precios</a>
                 <a href="">itinerarios</a>
             </div>
 
             <div>
                 <p>contacto</p>
                 <a href="">ayuda</a>
-                <a href="">contactanos</a>
+                <a href="">contáctenos</a>
             </div>
 
             <div>
@@ -83,5 +196,7 @@
     <!-- Estos dos scrips son para la traduccion de la pagina -->   
     <script src="js/translate.js"></script>
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateInit"></script>
+    <!-- para eliminar el cuadro de arriba al usar el traductor -->
+    <script src="js/translateremove.js"></script>
 </body>
 </html>
