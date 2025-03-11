@@ -1,0 +1,23 @@
+:root{
+    --naranja: #DF6951;
+    --azul-marino: #181E4B;
+    --amarillo: #F1A501;
+    --azul-turquesa: #006380;
+    --morado-lila: #8A79DF;
+
+    /* grises */
+    --gris-oscuro: #3c3c3c;
+    --gris-75: #515151;
+    --gris-50: #666666;
+    --gris-25: #8c8c8c;
+    --gris-claro: #b5b5b5;
+}
+.instagram-bg{
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+.redes-foot{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

@@ -1,0 +1,22 @@
+/* >>>>>>>>>>>>>>>>> sección de empresas <<<<<<<<<<<<<<<<< */
+section.empresas {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 90%;
+    height: 300px;
+    margin: 0 auto; 
+}
+
+.empresas-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 100px; 
+    width: 100%;
+}
+
+section.empresas img {
+    height: auto;
+    width: 230px;
+}
