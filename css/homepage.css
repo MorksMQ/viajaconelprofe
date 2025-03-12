@@ -33,13 +33,47 @@ section.hero div:nth-child(1) p.poppins-medium{
     display: flex;
     justify-content: space-around;
 }
+.botones-hero a:hover{
+    cursor: pointer;
+}
 section.hero div:nth-child(2){
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* >>>>>>>>>>>>>>>>> Hero section <<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>> sección lo más vendido <<<<<<<<<<<<<<<<< */
+section.mas-vendido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+section.mas-vendido div:nth-child(1){
+    text-align: center;
+}
+section.mas-vendido div:nth-child(1) p{
+    font-size: 24px;
+    color: var(--gris-50);
+}
+section.mas-vendido div:nth-child(1) h2{
+    font-size: 66.5px;
+    color: var(--azul-marino);
+}
+section.mas-vendido div:nth-child(2) .tarjeta{
+    width: 420px;
+    height: 610px;
+    background-color: #fff;
 
+    border-radius: 32px;
+
+    box-shadow: 2px 30px 30px rgba(0, 0, 0, 0.1);
+}
+section.mas-vendido div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 /* >>>>>>>>>>>>>>>>> sección de empresas <<<<<<<<<<<<<<<<< */
 section.empresas {
     display: flex;
