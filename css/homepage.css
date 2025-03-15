@@ -53,7 +53,7 @@ section.mas-vendido div:nth-child(1){
     text-align: center;
 }
 section.mas-vendido div:nth-child(1) p{
-    font-size: 24px;
+    /* font-size: 24px; */
     color: var(--gris-50);
 }
 section.mas-vendido div:nth-child(1) h2{
@@ -74,6 +74,34 @@ section.mas-vendido div:nth-child(2){
     flex-direction: row;
     gap: 20px;
 }
+section.mas-vendido div:nth-child(2) img{
+    max-width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 32px 32px 0px 0px;
+}
+section.mas-vendido div.tarjeta div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.tarjeta-info{
+    display: flex;
+    flex-direction: column;
+}
+
+div.tarjeta-info div p{
+    font-size: 18px;
+}
+div.tarjeta-info div:nth-child(2) p{
+    font-size: 15px;
+    color: var(--azul-claro);
+}
+.tarjeta-hover:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
 /* >>>>>>>>>>>>>>>>> sección de empresas <<<<<<<<<<<<<<<<< */
 section.empresas {
     display: flex;
