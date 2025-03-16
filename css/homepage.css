@@ -49,6 +49,8 @@ section.mas-vendido{
     flex-direction: column;
     gap: 50px;
 }
+
+/* esta parte corresponde al texto de arriba */
 section.mas-vendido div:nth-child(1){
     text-align: center;
 }
@@ -60,15 +62,16 @@ section.mas-vendido div:nth-child(1) h2{
     font-size: 66.5px;
     color: var(--azul-marino);
 }
-section.mas-vendido div:nth-child(2) .tarjeta{
+
+/* aqui esta lo que da estilo a la tarjeta */
+section.mas-vendido div:nth-child(2) .tarjeta {
     width: 420px;
     height: 610px;
     background-color: #fff;
-
     border-radius: 32px;
-
     box-shadow: 2px 30px 30px rgba(0, 0, 0, 0.1);
 }
+
 section.mas-vendido div:nth-child(2){
     display: flex;
     flex-direction: row;
@@ -101,6 +104,25 @@ div.tarjeta-info div:nth-child(2) p{
     cursor: pointer;
     transform: scale(1.02);
 }
+/* Limita el alto del contenedor de texto largo */
+.contenedor-texto-ajustable {
+    height: 60px; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+/* Texto que se ajusta automáticamente */
+.auto-ajuste {
+    font-size: 24px; /* tamaño máximo */
+    text-align: center;
+    line-height: 1.2;
+    margin: 0;
+}
+
 
 /* >>>>>>>>>>>>>>>>> sección de empresas <<<<<<<<<<<<<<<<< */
 section.empresas {
