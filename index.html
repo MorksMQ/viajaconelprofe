@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/botones.css">
     <link rel="stylesheet" href="css/colores.css">
+    <link rel="stylesheet" href="css/carrucel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -67,36 +68,143 @@
                 <h2 class="volkhov-bold">nuestros destinos</h2>
             </div>
 
-            <div class="carrusel poppins-medium">
-                <a class="tarjeta-hover" href="">
-                    <div class="tarjeta">
-                        <img src="images/lugares/tequila.jpg" alt="imagen del destino">
-                        <div class="tarjeta-info">
-                            <div class="contenedor-texto-ajustable">
-                                <p class="auto-ajuste">Tequila - Mazamitla</p>
-                                <p>mayo</p>
-                            </div>
-                            <div>
-                                <p>más información</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a class="tarjeta-hover" href="">
-                    <div class="tarjeta">
-                        <img src="images/lugares/tequila.jpg" alt="imagen del destino">
-                        <div class="tarjeta-info">
-                            <div class="contenedor-texto-ajustable">
-                                <p class="auto-ajuste">Queretaro - Peña de Bernal - Dolores Hidalgo - San Miguel de Allende - Guanajuato - León</p>
-                                <p>mayo</p>
-                            </div>
-                            <div>
-                                <p>más información</p>
+            <div class="carrusel-contenedor-externo">
+                <div class="carrusel-contenedor">
+                    <button class="boton-carrusel" id="anterior">&#10094;</button>
+            
+                    <div class="carrusel poppins-medium" id="carrusel">
+                    <a class="tarjeta-hover" href="">
+                        <div class="tarjeta">
+                            <img src="images/lugares/tequila.jpg" alt="imagen del destino">
+                            <div class="tarjeta-info">
+                                <div class="contenedor-texto-ajustable">
+                                    <p class="texto-tamaño">Tequila - Mazamitla</p>
+                                    <p>mayo</p>
+                                </div>
+                                <div>
+                                    <p>más información</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                    <a class="tarjeta-hover" href="">
+                        <div class="tarjeta">
+                            <img src="images/lugares/tequila.jpg" alt="imagen del destino">
+                            <div class="tarjeta-info">
+                                <div class="contenedor-texto-ajustable">
+                                    <p class="texto-tamaño">Queretaro - Peña de Bernal - Dolores Hidalgo - San Miguel de Allende - Guanajuato - León</p>
+                                    <p>mayo</p>
+                                </div>
+                                <div>
+                                    <p>más información</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="tarjeta-hover" href="">
+                        <div class="tarjeta">
+                            <img src="images/lugares/tequila.jpg" alt="imagen del destino">
+                            <div class="tarjeta-info">
+                                <div class="contenedor-texto-ajustable">
+                                    <p class="texto-tamaño">chiapas</p>
+                                    <p>junio</p>
+                                </div>
+                                <div>
+                                    <p>más información</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="tarjeta-hover" href="">
+                        <div class="tarjeta">
+                            <img src="images/lugares/tequila.jpg" alt="imagen del destino">
+                            <div class="tarjeta-info">
+                                <div class="contenedor-texto-ajustable">
+                                    <p class="texto-tamaño">Fig - Guanajuato - San Miguel de Allende - Oaxaca</p>
+                                    <p>Noviembre</p>
+                                </div>
+                                <div>
+                                    <p>más información</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="tarjeta-hover" href="">
+                        <div class="tarjeta">
+                            <img src="images/lugares/tequila.jpg" alt="imagen del destino">
+                            <div class="tarjeta-info">
+                                <div class="contenedor-texto-ajustable">
+                                    <p class="texto-tamaño">Oaxaca</p>
+                                    <p>Julio</p>
+                                </div>
+                                <div>
+                                    <p>más información</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="tarjeta-hover" href="">
+                        <div class="tarjeta">
+                            <img src="images/lugares/tequila.jpg" alt="imagen del destino">
+                            <div class="tarjeta-info">
+                                <div class="contenedor-texto-ajustable">
+                                    <p class="texto-tamaño">Colombia</p>
+                                    <p>Febrero - Agosto - Septiembre</p>
+                                </div>
+                                <div>
+                                    <p>más información</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="tarjeta-hover" href="">
+                        <div class="tarjeta">
+                            <img src="images/lugares/tequila.jpg" alt="imagen del destino">
+                            <div class="tarjeta-info">
+                                <div class="contenedor-texto-ajustable">
+                                    <p class="texto-tamaño">Perú</p>
+                                    <p>Junio</p>
+                                </div>
+                                <div>
+                                    <p>más información</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="tarjeta-hover" href="">
+                        <div class="tarjeta">
+                            <img src="images/lugares/tequila.jpg" alt="imagen del destino">
+                            <div class="tarjeta-info">
+                                <div class="contenedor-texto-ajustable">
+                                    <p class="texto-tamaño">Cuba</p>
+                                    <p>Abril</p>
+                                </div>
+                                <div>
+                                    <p>más información</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="tarjeta-hover" href="">
+                        <div class="tarjeta">
+                            <img src="images/lugares/tequila.jpg" alt="imagen del destino">
+                            <div class="tarjeta-info">
+                                <div class="contenedor-texto-ajustable">
+                                    <p class="texto-tamaño">Europa</p>
+                                    <p>Diciembre - Enero</p>
+                                </div>
+                                <div>
+                                    <p>más información</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <button class="boton-carrusel" id="siguiente">&#10095;</button>
             </div>
+        </div>
+            
         </section>
 
         <section class="itinerarios">
@@ -104,7 +212,7 @@
                 <p>fácil y rápido</p>
                 <h2>itinerarios</h2>
 
-                <div>
+                <div class="itinerarios-info">
                     <div>
                         <i class="fa-solid fa-image"></i>
                         <div>
@@ -129,22 +237,8 @@
                 </div>
             </div>
 
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <div>
-                        <p>el viaje</p>
-                        <p>duración del viaje</p>
-                        <div>
-                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                        <div>
-                            <p>mas de # personas tomaron este viaje</p>
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
-                    </div>
-                </div>
+            <div class="itinerarios-img">
+                <img src="images/lugares/colombia.jpg">
             </div>
         </section>
 
@@ -205,7 +299,9 @@
     <script src="js/translateremove.js"></script>
     <!-- hacer que la vista siempre se quede donde mismo -->
     <script src="js/scrollleft.js"></script>
-    <!-- hace que el texto de las tarjetas se ajuste atomaticamente -->
-    <script src="js/demasiadoTexto.js"></script>
+    <!-- hace que el texto de las tarjetas se ajuste atomaticamente // no funciona por el momento-->
+    <!-- <script src="js/demasiadoTexto.js"></script> --> 
+     <!-- este script ahce que funcione el carrucel -->
+     <script src="js/carrucel.js"></script>
 </body>
 </html>

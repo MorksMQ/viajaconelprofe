@@ -8,7 +8,7 @@ section.hero{
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    height: 80vh;
+    height: 85vh;
 }
 section.hero div:nth-child(1){
     width: 45%;
@@ -114,16 +114,38 @@ div.tarjeta-info div:nth-child(2) p{
     align-items: center;
     padding: 5px 10px;
 }
-
-/* Texto que se ajusta automáticamente */
-.auto-ajuste {
-    font-size: 24px; /* tamaño máximo */
-    text-align: center;
-    line-height: 1.2;
-    margin: 0;
+.tarjeta-hover:nth-of-type(2) .contenedor-texto-ajustable p.texto-tamaño{
+    font-size: 16px;
 }
+/* >>>>>>>>>>>>>>>>> sección de itinerarios <<<<<<<<<<<<<<<<< */
+section.itinerarios{
+    width: 90%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background-image: url(../images/lugares/colombia.jpg);
+    background-size: cover;
+    background-position-y: 80%;
+    background-position-x: -100%;
+}
+.itinerarios-info{
+    display: flex;
+    flex-direction: column;
 
-
+}
+.itinerarios-img{
+    width: 800px;
+    height: 800px;
+    clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%);
+    transform: rotateX(180deg);
+}
+.itinerarios-img img{
+    object-fit: cover;
+    object-position: left;
+    transform: rotateX(180deg);
+}
 /* >>>>>>>>>>>>>>>>> sección de empresas <<<<<<<<<<<<<<<<< */
 section.empresas {
     display: flex;

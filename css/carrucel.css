@@ -1,0 +1,76 @@
+.carrusel-contenedor {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+.carrusel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carrusel .tarjeta-hover {
+    flex: 0 0 20%; /* 100% / 4 tarjetas = 25% */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.boton-carrusel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+    font-size: 28px;
+    transition: background-color 0.3s;
+}
+
+.boton-carrusel:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#anterior {
+    left: 10px;
+}
+
+#siguiente {
+    right: 10px;
+}
+
+/* Mejor apariencia de las tarjetas */
+.tarjeta {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+}
+.carrusel-contenedor-externo {
+    overflow: hidden; /* recorta solo las tarjetas que salen del carrusel */
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carrusel-contenedor {
+    position: relative;
+    overflow: visible; /* deja ver la sombra completa */
+    width: 100%;
+}
+.carrusel-contenedor{
+    padding: 60px 0;
+}
+
