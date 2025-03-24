@@ -1,0 +1,114 @@
+/* telefono */
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    
+}
+
+/* tablet */
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+
+}
+
+/* laptop */
+@media screen and (max-width: 1500px) and (max-height: 900px) {
+    nav img{
+        height: 70px;
+    }
+    .mancha{
+        height: 800px;
+    }
+    section.hero img{
+        width: 500px;
+    }
+    section.hero div:nth-child(1) p:nth-child(1){
+        font-size: 24px;
+    }
+    section.hero div:nth-child(1) h1{
+        font-size: 100px;
+    }
+    section.mas-vendido{
+        gap: 10px;
+    }
+    section.mas-vendido div:nth-child(1) h2{
+        font-size: 56px;
+    }
+    section.empresas img{
+        width: 150px;
+    }
+    section.empresas{
+        height: 250px;
+    }
+    section.itinerarios{
+        height: 700px;
+    }
+    .itinerarios-img{
+        width: 800px;
+        height: 700px;
+    }
+    div.itinerarios div p{
+        font-size: 20px;
+    }
+    div.itinerarios div h2{
+        font-size: 57px;
+    }
+    div.itinerarios-info div div p{
+        font-size: 18px;
+    }
+    div.itinerarios-info div i{
+        padding: 15px;
+        font-size: 25px;
+    }
+    header{
+        height: 100px;
+    }
+    nav div.menu a{
+        font-size: 15px;
+    }
+    .foot-medio div p{
+        font-size: 18px;
+    }
+    .foot-medio div a{
+        font-size: 14px;
+    }
+    section.foot img{
+        height: 70px    ;
+    }
+    section.nosotros1{
+        width: 800px;
+        height: 250px;
+    }
+    div.nosotros1 div{
+        width: 500px;
+    }
+    div.nosotros1 div p{
+        font-size: 16px;
+        line-height: 2.5;
+    }
+    div.nosotros-info div{
+        width: 300px;
+    }
+    div.nosotros-info div img{
+        width: 700px;
+    }
+    div.nosotros-info div p:nth-child(1){
+        font-size: 25px;
+    }
+    div.nosotros-info div p:nth-child(2){
+        font-size: 15px;
+    }
+    section.contactanos{
+        margin-top: 150px;
+    }
+    section.contactanos img{
+        width: 250px;
+        top: 6%;
+    }
+    .tarjeta-inf i{
+        padding: 12px;
+        font-size: 21px;
+    }
+    .mapa-info{
+        width: 600px;
+        height: 700px;
+    }
+}
+  

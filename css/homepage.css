@@ -166,6 +166,7 @@ div.itinerarios{
     height: 100%;
     background-image: url(../images/lugares/colombia.jpg);
     background-position: center right;
+    background-size: cover;
     transform: rotateX(180deg);
 }
 div.itinerarios div p{

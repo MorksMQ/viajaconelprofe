@@ -41,6 +41,9 @@ div.nosotros-info div{
     align-items: center;
     flex-direction: column;
 }
+div.nosotros-info div img{
+    width: 1000px;
+}
 div.nosotros-info div p:nth-child(1){
     font-size: 35px;
 }
