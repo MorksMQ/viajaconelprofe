@@ -8,7 +8,8 @@
     <link rel="shortcut icon" href="../images/logo/icon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/4df61fafd8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/fuentes.css">
-    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../css/contactanos.css">
     <link rel="stylesheet" href="../css/botones.css">
     <link rel="stylesheet" href="../css/colores.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,7 +45,85 @@
     </header>
 
     <main>
-              
+        <section class="contactanos">
+            <img src="../images/logo/isotipo.png">
+            <div class="contactanos-container">
+                <h1 class="volkhov-bold">Contáctanos y reserva tu viaje</h1>
+            </div>
+        </section>
+
+        <section class="informacion">
+            <div class="informacion">
+                <div class="informacion-izq">
+                    <div class="tarjeta-inf">
+                        <i class="fa-solid fa-street-view"></i>
+                        <div>
+                            <p class="poppins-bold">Dirección</p>
+                            <p class="poppins-medium">Puerto Vallarta, Jalisco, México</p>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta-inf">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <p class="poppins-bold">Teléfono</p>
+                            <p class="poppins-medium">+52 322 174 7180</p>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta-inf">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <p class="poppins-bold">Correo electrónico</p>
+                            <p class="poppins-medium">viajaconelprofe@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta-inf">
+                        <i class="fa-solid fa-globe"></i>
+                        <div>
+                            <p class="poppins-bold">sitio web</p>
+                            <p class="poppins-medium">https://www.viajaconelprofe.com</p>
+                        </div>
+                    </div>
+
+                    <div class="redes-info">
+                        <p class="volkhov-bold">Redes sociales</p>
+
+                        <div class="tarjeta-inf">
+                            <i class="fa-brands fa-facebook"></i>
+                            <div>
+                                <p class="poppins-medium">VIAJA CON EL Profee</p>
+                            </div>
+                        </div>
+        
+                        <div class="tarjeta-inf">
+                            <i class="fa-brands fa-instagram"></i>
+                            <div>
+                                <p class="poppins-medium">@viajaconelprofee</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            
+            <div>
+                <iframe class="mapa-info" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d119478.57402150404!2d-105.224307!3d20.64086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842145635063c87f%3A0x79cfbf9985bf5274!2sPuerto%20Vallarta%2C%20Jal.!5e0!3m2!1ses!2smx!4v1742836464378!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <div class="form-container">
+                <h2 class="volkhov-bold">¿Estas interesado en algo que vez?, mándanos un mensaje, Te estamos esperando.</h2>
+                <form id="subscribeForm">
+                  <div class="input-group">
+                    <span class="icon">📧</span>
+                    <input type="email" id="email" placeholder="Tu correo" required />
+                  </div>
+                  <button class="poppins-bold" type="submit">Enviar</button>
+                </form>
+              </div>
+        </section>
     </main>
 
     <footer class="poppins-regular">
@@ -95,7 +174,7 @@
     <script src="../js/translateremove.js"></script>
     <!-- hacer que la vista siempre se quede donde mismo -->
     <script src="../js/scrollleft.js"></script>
-    <!-- hace que el texto de las tarjetas se ajuste atomaticamente -->
-    <script src="../js/demasiadoTexto.js"></script>
+    <!-- ayuda con el mensaje del formulario -->
+    <script src="../js/formulario.js"></script>
 </body>
 </html>

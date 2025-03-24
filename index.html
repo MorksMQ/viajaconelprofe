@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="images/logo/icon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/4df61fafd8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/fuentes.css">
+    <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/botones.css">
     <link rel="stylesheet" href="css/colores.css">
@@ -250,7 +251,20 @@
             <a href="https://www.jetsmart.com/" target="_blank"><img src="images/aerolineas/JetSmart.svg.png" alt=""></a>
             <a href="https://www.latamairlines.com/" target="_blank"><img src="images/aerolineas/latam.svg" alt=""></a>
             <a href="https://www.volaris.com/" target="_blank"><img src="images/aerolineas/Volaris-logo.svg.png" alt=""></a>
-        </section>    
+        </section>
+        
+        <section class="formulario">
+            <div class="form-container">
+                <h2 class="volkhov-bold">¿Estas interesado en algo que vez?, mándanos un mensaje, Te estamos esperando.</h2>
+                <form id="subscribeForm">
+                  <div class="input-group">
+                    <span class="icon">📧</span>
+                    <input type="email" id="email" placeholder="Tu correo" required />
+                  </div>
+                  <button class="poppins-bold" type="submit">Enviar</button>
+                </form>
+              </div>
+        </section>
     
     </main>
 
@@ -304,7 +318,9 @@
     <script src="js/scrollleft.js"></script>
     <!-- hace que el texto de las tarjetas se ajuste atomaticamente // no funciona por el momento-->
     <!-- <script src="js/demasiadoTexto.js"></script> --> 
-     <!-- este script ahce que funcione el carrucel -->
-     <script src="js/carrucel.js"></script>
+    <!-- este script ahce que funcione el carrucel -->
+    <script src="js/carrucel.js"></script>
+    <!-- ayuda con el mensaje del formulario -->
+    <script src="js/formulario.js"></script>
 </body>
 </html>

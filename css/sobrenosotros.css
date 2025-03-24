@@ -1,0 +1,58 @@
+section.nosotros1{
+    width: 1000px;
+    height: 300px;  
+    background-color: #d6d0e8;
+    border-radius: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+div.nosotros1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/recursos/circulos-bg.svg);
+}
+div.nosotros1 div{
+    width: 700px;
+}
+div.nosotros1 div p{
+    color: var(--gris-50);
+    font-size: 20px;
+    line-height: 3;
+    text-align: center;
+}
+section.nosotros2{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 6rem;
+}
+div.nosotros-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.nosotros-info div{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.nosotros-info div p:nth-child(1){
+    font-size: 35px;
+}
+div.nosotros-info div p:nth-child(2){
+    font-size: 25px;
+    color: var(--gris-50);
+    text-align: justify;
+}
+div.nosotros-info div img{
+    z-index: 0;
+    border-radius: 50px;
+}
+div.nosotros-info div p{
+    z-index: 1;
+}

@@ -1,0 +1,73 @@
+section.contactanos{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+section.contactanos img{
+    width: 300px;
+    position: absolute;
+    top:  9%;
+}
+.contactanos-container{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: var(--amarillo-fosfo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactanos-container h1{
+    color: var(--azul-marino);
+    font-size: 70px;
+}
+
+/* seccion de informacion >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+section.informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #fff;
+}
+div.informacion{
+    display: flex;
+    flex-direction: row;
+}
+.informacion-izq{
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tarjeta-inf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.tarjeta-inf i{
+    padding: 15px;
+    color: #fff;
+    font-size: 24px;
+    background-color: var(--amarillo);
+    border-radius: 10px;
+}
+.redes-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+.mapa-info{
+    width: 700px;
+    height: 800px;
+    border-radius: 15px;
+}
