@@ -1,0 +1,46 @@
+.experiencias-section {
+    padding: 40px 20px;
+    background: var(--color-fondo-claro, #f4f4f4);
+    text-align: center;
+  }
+  
+  .titulo-experiencias {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: var(--color-principal, #2c3e50);
+  }
+  
+  .bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    grid-auto-rows: 200px;
+    justify-items: center;
+  }
+  
+  .bento-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bento-item video,
+  .bento-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .bento-large {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .logo-box img {
+    object-fit: contain;
+    padding: 10px;
+    background: white;
+  }
+  

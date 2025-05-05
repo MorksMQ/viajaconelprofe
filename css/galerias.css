@@ -1,0 +1,283 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--amarillo);
+}
+section h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: var(--amarillo-fosfo);
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+.galeria1 {
+    position: relative;
+    width: 100%;
+    height: 800px; /* o la altura que necesites */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .galeria1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/lugares/colombia.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7); /* o usa rgba en overlay si prefieres */
+    z-index: -2;
+  }
+  
+  .galeria1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* máscara oscura */
+    z-index: -1;
+  }
+  
+  .galeria1 .contenido {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    margin: 1rem auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 1000px; /* 4 imágenes de 300px */
+    overflow: hidden;
+    margin: 1rem auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel img {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+  }
+  
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--amarillo-fosfo);
+    filter: opacity(.7);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    z-index: 1;
+  }
+  
+  .carousel-btn.prev {
+    left: 0;
+  }
+  
+  .carousel-btn.next {
+    right: 0;
+  }
+  
+  .galeria2 {
+    position: relative;
+    width: 100%;
+    height: 800px; /* o la altura que necesites */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .galeria2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/lugares/chiapas3.webp');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1.2); /* o usa rgba en overlay si prefieres */
+    z-index: -2;
+  }
+  
+  .galeria2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* máscara oscura */
+    z-index: -1;
+  }
+  
+  .galeria2 .contenido {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  .galeria3 {
+    position: relative;
+    width: 100%;
+    height: 800px; /* o la altura que necesites */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .galeria3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/lugares/tequila.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.6); /* o usa rgba en overlay si prefieres */
+    z-index: -2;
+  }
+  
+  .galeria3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* máscara oscura */
+    z-index: -1;
+  }
+  
+  .galeria3 .contenido {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .galeria4 {
+    position: relative;
+    width: 100%;
+    height: 800px; /* o la altura que necesites */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .galeria4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/lugares/playadelcarmen.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1.2); /* o usa rgba en overlay si prefieres */
+    z-index: -2;
+  }
+  
+  .galeria4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* máscara oscura */
+    z-index: -1;
+  }
+  
+  .galeria4 .contenido {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .galeria5 {
+    position: relative;
+    width: 100%;
+    height: 800px; /* o la altura que necesites */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .galeria5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/lugares/guanajuato.avif');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.5); /* o usa rgba en overlay si prefieres */
+    z-index: -2;
+  }
+  
+  .galeria5::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* máscara oscura */
+    z-index: -1;
+  }
+  
+  .galeria5 .contenido {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }

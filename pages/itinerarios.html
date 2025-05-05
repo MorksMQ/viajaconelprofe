@@ -8,7 +8,8 @@
     <link rel="shortcut icon" href="../images/logo/icon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/4df61fafd8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/fuentes.css">
-    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/popup.css">
+    <link rel="stylesheet" href="../css/itinerarios.css">
     <link rel="stylesheet" href="../css/botones.css">
     <link rel="stylesheet" href="../css/colores.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +32,7 @@
                 <a class="animacion-boton" href="itinerarios.html">Itinerario</a>
                 <a class="animacion-boton" href="experiencias.html">Experiencias</a>
                 <a class="animacion-boton" href="contactanos.html">Contacto</a>
-                <a class="boton-ghost" href="reserva.html">Reserva</a>
+                <a class="boton-ghost" href="contactanos.html">Reserva</a>
                 <!-- Botón que cambia entre "EN" y "ES" DEJAR EN CASO DE QUE FALLE EL OTRO -->
                 <!-- <button class="translate" id="translateBtn" onclick="toggleTranslation()">
                     <i class="fa-solid fa-globe"></i>
@@ -47,7 +48,168 @@
     </header>
 
     <main>
-              
+        <section class="itinerarios-p">
+            <div class="iti-info">
+                <div>
+                    <h1 class="poppins-bold">ITINERARIOS</h1>
+                    <p class="poppins-regular">Descubre una selección de itinerarios cuidadosamente diseñados para ofrecerte experiencias inolvidables.
+                        <br><br>
+                        Cada ruta incluye detalles sobre los destinos, actividades recomendadas y consejos útiles para que tu viaje sea perfecto. Explora diferentes opciones y elige el itinerario que mejor se adapte a tus preferencias. ¡Tu próxima aventura está a solo un clic de distancia!</p>
+                </div>
+            </div>
+            <div class="iti-container">
+                <div class="tarjeta-popup" data-modal="modal1">
+                    <img src="../pdf/colombia7dias/1.png">
+                    <div>
+                        <h2 class="poppins-medium">ITINERARIO</h2>
+                        <h2 class="poppins-bold">COLOMBIA</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal2">
+                    <img src="../pdf/colombia10dias/1.png">
+                    <div>
+                        <h2 class="poppins-medium">ITINERARIO</h2>
+                        <h2 class="poppins-bold">COLOMBIA</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal3">
+                    <img src="../pdf/figNoviembre/1.png">
+                    <div>
+                        <h2 class="poppins-medium">ITINERARIO</h2>
+                        <h2 class="poppins-bold">Feria Internacional del Globo (FIG)</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal4">
+                    <img src="../pdf/peru10dias/1.png">
+                    <div>
+                        <h2 class="poppins-medium">ITINERARIO</h2>
+                        <h2 class="poppins-bold">PERÚ</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <!-- >>>>>>>>>>>> -->
+                
+                <div class="modal-popup" id="modal1" data-images='[  
+                    "../pdf/colombia10dias/2.png",
+                    "../pdf/colombia10dias/3.png",
+                    "../pdf/colombia10dias/4.png",
+                    "../pdf/colombia10dias/5.png"
+                ]'>
+                <div class="modal-content">
+                    <div class="carousel">
+                    <button class="carousel-pop-btn prev">&lt;</button>
+                    <img class="carousel-pop-img" src="" alt="Imagen del carrusel">
+                    <button class="carousel-pop-btn next">&gt;</button>
+                    </div>
+
+                    <div class="modal-info">
+                    <div>
+                        <h2 class="poppins-bold">Colombia 7 días</h2>
+                        <p class="poppins-regular">
+                        Viaja a Colombia y envuélvete de paisajes que van desde bosques tropicales...
+                        </p>
+                    </div>
+                    <div>
+                        <a href="../pdf/ITINERARIO COLOMBIA 7 DIAS VIAJEROS.pdf" download class="btn-descargar">Descargar PDF</a><br><br>
+                        <button class="close-btn">Cerrar</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="modal-popup" id="modal2" data-images='[  
+                    "../pdf/colombia7dias/2.png",
+                    "../pdf/colombia7dias/3.png",
+                    "../pdf/colombia7dias/4.png",
+                    "../pdf/colombia7dias/5.png"
+                ]'>
+                <div class="modal-content">
+                    <div class="carousel">
+                    <button class="carousel-pop-btn prev">&lt;</button>
+                    <img class="carousel-pop-img" src="" alt="Imagen del carrusel">
+                    <button class="carousel-pop-btn next">&gt;</button>
+                    </div>
+
+                    <div class="modal-info">
+                    <div>
+                        <h2 class="poppins-bold">Colombia 10 días</h2>
+                        <p class="poppins-regular">
+                        Viaja a Colombia y envuélvete de paisajes que van desde bosques tropicales...
+                        </p>
+                    </div>
+                    <div>
+                        <a href="../pdf/ITINERARIO COLOMBIA 10 DIAS WEB.pdf" download class="btn-descargar">Descargar PDF</a><br><br>
+                        <button class="close-btn">Cerrar</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="modal-popup" id="modal3" data-images='[  
+                    "../pdf/figNoviembre/2.png",
+                    "../pdf/figNoviembre/3.png",
+                    "../pdf/figNoviembre/4.png"
+                ]'>
+                <div class="modal-content">
+                    <div class="carousel">
+                    <button class="carousel-pop-btn prev">&lt;</button>
+                    <img class="carousel-pop-img" src="" alt="Imagen del carrusel">
+                    <button class="carousel-pop-btn next">&gt;</button>
+                    </div>
+
+                    <div class="modal-info">
+                    <div>
+                        <h2 class="poppins-bold">Feria Internacional del Globo (FIG)</h2>
+                        <p class="poppins-regular">
+                            Vive la magia de la Feria Internacional del Globo, donde los cielos se llenan de color, emoción y aventuras inolvidables.                        </p>
+                    </div>
+                    <div>
+                        <a href="../pdf/ITINERARIO FESTIVAL INTERNACIONAL DEL GLOBO (FIG) VIAJEROS.pdf" download class="btn-descargar">Descargar PDF</a><br><br>
+                        <button class="close-btn">Cerrar</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="modal-popup" id="modal4" data-images='[  
+                    "../pdf/peru10dias/2.png",
+                    "../pdf/peru10dias/3.png",
+                    "../pdf/peru10dias/4.png",
+                    "../pdf/peru10dias/5.png"
+                ]'>
+                <div class="modal-content">
+                    <div class="carousel">
+                    <button class="carousel-pop-btn prev">&lt;</button>
+                    <img class="carousel-pop-img" src="" alt="Imagen del carrusel">
+                    <button class="carousel-pop-btn next">&gt;</button>
+                    </div>
+
+                    <div class="modal-info">
+                    <div>
+                        <h2 class="poppins-bold">Perú 10 dias</h2>
+                        <p class="poppins-regular">
+                            Viaja a Perú y déjate cautivar por su misticismo ancestral, desde Machu Picchu hasta los vibrantes sabores de su gastronomía.                        </p>
+                    </div>
+                    <div>
+                        <a href="../pdf/ITINERARIO PERÚ 10 DIAS VIAJEROS.pdf" download class="btn-descargar">Descargar PDF</a><br><br>
+                        <button class="close-btn">Cerrar</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                </div>
+            </div>   
+        </section>  
     </main>
 
     <footer class="poppins-regular">
@@ -100,5 +262,7 @@
     <script src="../js/scrollleft.js"></script>
     <!-- hace que el texto de las tarjetas se ajuste atomaticamente -->
     <script src="../js/demasiadoTexto.js"></script>
+    <script src="../js/popup.js"></script>
+    <script src="../js/carrusel-pop.js"></script>
 </body>
 </html>

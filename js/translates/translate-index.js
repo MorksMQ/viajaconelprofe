@@ -27,7 +27,20 @@
     "viajes": "trips",
     "destinos": "destinations",
     "lo mas barato": "cheapest options",
-    "tu correo": "email"
+    "tu correo": "email",
+    "itinerario": "itinerary",
+    "experiencias": "experiences",
+    "galerías": "galleries",
+    "mayo": "May",
+    "Mayo": "May",
+    "junio": "June",
+    "agosto": "August",
+    "Septiembre": "September",
+    "abril": "April",
+    "julio": "july",
+    "Febrero - Agosto - Septiembre": "February - August - September",
+    "Noviembre": "November"
+
   };
 
   let traducido = false;
