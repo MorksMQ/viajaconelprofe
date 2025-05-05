@@ -27,21 +27,31 @@
             </div>
             <div class="volkhov-bold menu">
                 <a class="animacion-boton" href="sobrenosotros.html">Sobre nosotros</a>
+<<<<<<< HEAD
                 <a class="animacion-boton" href="destinos.html">Destinos</a>
+                <a class="animacion-boton" href="galerias.html">Galerías</a>
+                <a class="animacion-boton" href="itinerarios.html">Itinerario</a>
+                <a class="animacion-boton" href="experiencias.html">Experiencias</a>
+=======
+                <a class="animacion-boton" href="">Destinos</a>
                 <a class="animacion-boton" href="">Galerías</a>
                 <a class="animacion-boton" href="">Itinerario</a>
                 <a class="animacion-boton" href="">Experiencias</a>
+>>>>>>> 8f51ac7884b616efad88038589ca5f58cea5deab
                 <a class="animacion-boton" href="contactanos.html">Contacto</a>
-                <a class="boton-ghost" href="">Reserva</a>
-                <!-- Botón que cambia entre "EN" y "ES" -->
+                <a class="boton-ghost" href="reserva.html">Reserva</a>
+                <!-- Botón que cambia entre "EN" y "ES" DEJAR EN CASO DE QUE FALLE EL OTRO -->
+                <!-- <button class="translate" id="translateBtn" onclick="toggleTranslation()">
+                    <i class="fa-solid fa-globe"></i>
+                </button> -->
                 <button class="translate" id="translateBtn" onclick="toggleTranslation()">
                     <i class="fa-solid fa-globe"></i>
-                </button>
+                </button>                  
             </div>
         </nav>
 
         <!-- Google Translate (Oculto) -->
-        <div id="google_translate_element"></div>
+        <!-- <div id="google_translate_element"></div> -->
     </header>
 
     <main>
@@ -118,7 +128,7 @@
                 <form id="subscribeForm">
                   <div class="input-group">
                     <span class="icon">📧</span>
-                    <input type="email" id="email" placeholder="Tu correo" required />
+                    <input type="email" id="email" placeholder="Correo" required />
                   </div>
                   <button class="poppins-bold" type="submit">Enviar</button>
                 </form>
@@ -168,7 +178,7 @@
     </footer>
 
     <!-- Estos dos scrips son para la traduccion de la pagina -->   
-    <script src="../js/translate.js"></script>
+    <script src="../js/translates/translate-contactanos.js"></script>
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateInit"></script>
     <!-- para eliminar el cuadro de arriba al usar el traductor -->
     <script src="../js/translateremove.js"></script>

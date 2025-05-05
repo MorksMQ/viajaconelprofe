@@ -30,7 +30,7 @@
     });
 
     // Cambio automático cada 10 segundos
-    let intervalo = setInterval(avanzarPagina, 8000);
+    let intervalo = setInterval(avanzarPagina, 3000);
 
     function reiniciarAutoCarrusel() {
         clearInterval(intervalo);

@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../images/logo/icon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/4df61fafd8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/popup.css">
+    <link rel="stylesheet" href="../css/formulario.css">
     <link rel="stylesheet" href="../css/fuentes.css">
-    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/destinos.css">
     <link rel="stylesheet" href="../css/botones.css">
     <link rel="stylesheet" href="../css/colores.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,25 +28,347 @@
             </div>
             <div class="volkhov-bold menu">
                 <a class="animacion-boton" href="sobrenosotros.html">Sobre nosotros</a>
+<<<<<<< HEAD
                 <a class="animacion-boton" href="destinos.html">Destinos</a>
+                <a class="animacion-boton" href="galerias.html">Galerías</a>
+                <a class="animacion-boton" href="itinerarios.html">Itinerario</a>
+                <a class="animacion-boton" href="experiencias.html">Experiencias</a>
+=======
+                <a class="animacion-boton" href="">Destinos</a>
                 <a class="animacion-boton" href="">Galerías</a>
                 <a class="animacion-boton" href="">Itinerario</a>
                 <a class="animacion-boton" href="">Experiencias</a>
+>>>>>>> 8f51ac7884b616efad88038589ca5f58cea5deab
                 <a class="animacion-boton" href="contactanos.html">Contacto</a>
-                <a class="boton-ghost" href="">Reserva</a>
-                <!-- Botón que cambia entre "EN" y "ES" -->
+                <a class="boton-ghost" href="reserva.html">Reserva</a>
+                <!-- Botón que cambia entre "EN" y "ES" DEJAR EN CASO DE QUE FALLE EL OTRO -->
+                <!-- <button class="translate" id="translateBtn" onclick="toggleTranslation()">
+                    <i class="fa-solid fa-globe"></i>
+                </button> -->
                 <button class="translate" id="translateBtn" onclick="toggleTranslation()">
                     <i class="fa-solid fa-globe"></i>
-                </button>
+                </button>                  
             </div>
         </nav>
 
         <!-- Google Translate (Oculto) -->
-        <div id="google_translate_element"></div>
+        <!-- <div id="google_translate_element"></div> -->
     </header>
 
     <main>
-              
+        <section class="nuestros-destinos">
+            <h2 class="poppins-semibold">lo más vendido</h2>
+            <h1 class="poppins-bold">nuestros Destinos</h1>
+
+            <div class="destinos">
+                <!-- <<<<<<<<<<<<<<<<<<<< -->
+                <div class="tarjeta-popup" data-modal="modal1">
+                    <img src="../images/lugares/colombia2.jpg">
+                    <div>
+                        <h2 class="poppins-bold">COLOMBIA</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal2">
+                    <img src="../images/lugares/peru2.jpg">
+                    <div>
+                        <h2 class="poppins-bold">PERÚ</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal3">
+                    <img src="../images/lugares/costarica2.jpg">
+                    <div>
+                        <h2 class="poppins-bold">COLOMBIA</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal4">
+                    <img src="../images/lugares/cuba2.jpg">
+                    <div>
+                        <h2 class="poppins-bold">CUBA</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal5">
+                    <img src="../images/lugares/europa2.jpg">
+                    <div>
+                        <h2 class="poppins-bold">EUROPA</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal6">
+                    <img src="../images/lugares/tequila2.jpg">
+                    <div>
+                        <h2 class="poppins-bold">TEQUILA</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal7">
+                    <img src="../images/lugares/peñabernal2.jpg">
+                    <div class="tamTextoDestinos">
+                        <h2 class="poppins-bold">QUERETARO - PEÑA DE BERNAL - DOLORES HIDALGO</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal7">
+                    <img src="../images/lugares/sanmigueldeallende2.jpg">
+                    <div class="tamTextoDestinos">
+                        <h2 class="poppins-bold">SAN MIGUEL DE ALLENDE - GUANAJUATO - LEÓN</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal8">
+                    <img src="../images/lugares/fig2.jpg">
+                    <div class="tamTextoDestinos">
+                        <h2 class="poppins-bold ">FIG - GUANAJUATO - SAN MIGUEL DE ALLENDE</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal9">
+                    <img src="../images/lugares/chiapas2.jpg">
+                    <div>
+                        <h2 class="poppins-bold">CHIAPAS</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+
+                <div class="tarjeta-popup" data-modal="modal9">
+                    <img src="../images/lugares/playadelcarmen2.jpg">
+                    <div>
+                        <h2 class="poppins-bold">PLAYA DEL CARMEN</h2>
+                        <p class="poppins-regular">mas información</p>
+                    </div>
+                </div>
+                <!-- >>>>>>>>>>>>>> -->
+
+                <!-- <<<<<<<<<<<<<<<<<<<< -->
+                <div class="modal-popup" id="modal1" data-images='[
+                    "../images/flyers/colombia1.png",
+                    "../images/flyers/colombia2.png",
+                    "../images/flyers/colombia3.png"
+                    ]'>
+
+                    <div class="modal-content">
+                        <div class="carousel">
+                        <button class="carousel-pop-btn prev">&lt;</button>
+                        <img class="carousel-pop-img" src="" alt="Imagen del carrusel">
+                        <button class="carousel-pop-btn next">&gt;</button>
+                        </div>
+
+                        <div class="modal-info">
+                            <div>
+                                <h2 class="poppins-bold">Colombia</h2>
+                                <p class="poppins-regular">
+                                    Viaja a Colombia y envuélvete de paisajes que van desde bosques tropicales...
+                                </p>
+                            </div>
+                            <div>
+                                <button class="close-btn">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-popup" id="modal2">
+                    <div class="modal-content">
+                        <div>
+                            <img src="../images/flyers/fperu.jpg">
+                        </div>
+                        <div class="modal-info">
+                            <div>
+                                <h2 class="poppins-bold">Perú</h2>
+                                <p class="poppins-regular">Viaja a Perú, un país rico de sitios arqueolígicos, arquitectura colonial preservada e importantes coleccioxnes de arte precolombino, conoce la región en torno a Machu Picchu, incluido el Valle Sagrado, el Camino del Inca y la ciudad colonial de Cusco.</p>
+                            </div>
+                            
+                            <div>
+                                <button class="close-btn">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-popup" id="modal3">
+                    <div class="modal-content">
+                        <div>
+                            <img src="../images/flyers/costarica1.png">
+                        </div>
+                        <div class="modal-info">
+                            <div>
+                                <h2 class="poppins-bold">Costa Rica</h2>
+                                <p class="poppins-regular">Descubre Costa Rica, un paraíso tropical en América Central conocido por su impresionante biodiversidad, playas de ensueño y exuberantes selvas. Este destino cautiva con su mezcla de aventuras al aire libre y tranquilidad natural, desde las costas del Pacífico hasta el Caribe. Con parques nacionales llenos de vida silvestre, volcanes imponentes y pueblos llenos de encanto, Costa Rica ofrece experiencias únicas, como el surf en Tamarindo, caminatas por Monteverde y la vibrante vida cultural de San José.</p>
+                            </div>
+                            
+                            <div>
+                                <button class="close-btn">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-popup" id="modal4">
+                    <div class="modal-content">
+                        <div>
+                            <img src="../images/flyers/fcuba.jpeg">
+                        </div>
+                        <div class="modal-info">
+                            <div>
+                                <h2 class="poppins-bold">Cuba</h2>
+                                <p class="poppins-regular">Viaja a la República de Cuba, un archipiélago constituido por la isla mayor de las Antillas o Mar Caribe, cerca de las costas de los Estados Unidos y México en la que podrás adentrarte en paisajes coloridos llenos de arte y tradición.</p>
+                            </div>
+                            
+                            <div>
+                                <button class="close-btn">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                         
+                <div class="modal-popup" id="modal5">
+                    <div class="modal-content">
+                        <div>
+                            <img src="../images/flyers/feuropa.jpeg">
+                        </div>
+                        <div class="modal-info">
+                            <div>
+                                <h2 class="poppins-bold">Europa</h2>
+                                <p class="poppins-regular">Viaja a Europa y conoce el gram imperio Romano, capital historica, conoce a la primera gran cibilización adentrandote en la antigua grecia y rodeate de todos los escenarios e historia que el territorio mediterráneo tiene para tí.</p>
+                            </div>
+                            
+                            <div>
+                                <button class="close-btn">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-popup" id="modal6">
+                    <div class="modal-content">
+                        <div>
+                            <img src="../images/flyers/tequila1.png">
+                        </div>
+                        <div class="modal-info">
+                            <div>
+                                <h2 class="poppins-bold">Tequila - Mazamitla</h2>
+                                <p class="poppins-regular">Visita Tequila y envuelvete por los paisajes de Agave y la degustación de comida y bebida tradicional en Jalisco. Conoce el proceso de producción que se puede observar en varias destilerías y haciendas y envuelvete por la historia expuesta en el Museo Nacional del Tequila y el Museo Los Abuelos. Además adentrate en los bosques de la región en Mazamitla, donde podrás aventurarte en Motos y disfutar de un bello paisaje.</p>
+                            </div>
+                            
+                            <div>
+                                <button class="close-btn">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-popup" id="modal7">
+                    <div class="modal-content">
+                        <div>
+                            <img src="../images/flyers/fqueretaro.jpg">
+                        </div>
+                        <div class="modal-info h2TamDestinos">
+                            <div class="">
+                                <h2 class="poppins-bold">QUERETARO - PEÑA DE BERNAL - DOLORES HIDALGO - SAN MIGUEL DE ALLENDE - GUANAJUATO - LEÓN</h2>
+                                <p class="poppins-regular">Visita Queretaro conocido por su arquitectura colonial española bien conservada, con un sorprendente acueducto de piedra rosa, rodeate de nueva gatronomía y recorre las bellas calles de Peña de Bernal y recorre las ciudades más emblemáticas de Guanajuato.</p>
+                            </div>
+                            
+                            <div>
+                                <button class="close-btn">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-popup" id="modal8">
+                    <div class="modal-content">
+                        <div>
+                            <img src="../images/flyers/fig1.png">
+                        </div>
+                        <div class="modal-info">
+                            <div>
+                                <h2 class="poppins-bold">FIG - Guanajuato - San Miguel de Allende</h2>
+                                <p class="poppins-regular">Conoce el Festival Internacional de Globo en León, Guanajuto y disfruta de decenas de globos aerostáticos que se elevan por el cielo de León y de los diversos cantantes, grupos musicales y espectáculos artísticos que se presentan. Además conoce Guanajuato y San Miguel de Allende y disfruta de arquitectura e historia en todo su esplendor.</p>
+                            </div>
+                            
+                            <div>
+                                <button class="close-btn">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-popup" id="modal9">
+                    <div class="modal-content">
+                        <div>
+                            <img src="../images/flyers/fchiapas.png">
+                        </div>
+                        <div class="modal-info">
+                            <div>
+                                <h2 class="poppins-bold">Chiapas</h2>
+                                <p class="poppins-regular">Viaja a Chiapas para rodearte de sus zonas montañosas altas y el denso bosque tropical que alberga sitios arqueológicos mayas y pueblos coloniales españoles.</p>
+                            </div>
+                            
+                            <div>
+                                <button class="close-btn">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-popup" id="modal10">
+                    <div class="modal-content">
+                        <div>
+                            <img src="../images/flyers/fplayadelcarmen.png">
+                        </div>
+                        <div class="modal-info">
+                            <div>
+                                <h2 class="poppins-bold">Playa del Carmen</h2>
+                                <p class="poppins-regular">Visita Playa del Carmen, un balneario costero de México que se ubica a lo largo de la costa caribeña de la Riviera Maya, en la Península de Yucatán. Destino famoso por sus playas bordeadas de palmeras y los arrecifes de coral y la Quinta Avenida peatonal que se extiende en paralelo a la playa, con cuadras de tiendas, restaurantes y clubes nocturnos que van desde bares relajados hasta clubes de baile.</p>
+                            </div>
+                            
+                            <div>
+                                <button class="close-btn">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- >>>>>>>>>>>>>> -->
+            </div>
+        </section>
+
+        <section class="destinos-botones">
+            <a class="boton-solido agitar" href="reserva.html">reserva</a>
+            <a class="agitar" href="itinerarios.html"><i class="fa-solid fa-play boton-circular" style="background-color: var(--naranja); color: #fff;"></i> Próximos viajes</a>
+        </section>
+
+        <section class="empresas">
+            <a href="https://www.aeromexico.com/" target="_blank"><img src="../images/aerolineas/aeromexico.webp" alt=""></a>
+            <a href="https://www.avianca.com/" target="_blank"><img src="../images/aerolineas/Avianca.png" alt=""></a>
+            <a href="https://www.jetsmart.com/" target="_blank"><img src="../images/aerolineas/JetSmart.svg.png" alt=""></a>
+            <a href="https://www.latamairlines.com/" target="_blank"><img src="../images/aerolineas/latam.svg" alt=""></a>
+            <a href="https://www.volaris.com/" target="_blank"><img src="../images/aerolineas/Volaris-logo.svg.png" alt=""></a>
+        </section>
+
+        <section class="formulario">
+            <div class="form-container">
+                <h2 class="volkhov-bold">¿Estas interesado en algo que vez?, mándanos un mensaje, Te estamos esperando.</h2>
+                <form id="subscribeForm">
+                  <div class="input-group">
+                    <span class="icon">📧</span>
+                    <input type="email" id="email" placeholder="Tu correo" required />
+                  </div>
+                  <button class="poppins-bold" type="submit">Enviar</button>
+                </form>
+              </div>
+        </section>
     </main>
 
     <footer class="poppins-regular">
@@ -89,7 +413,7 @@
     </footer>
 
     <!-- Estos dos scrips son para la traduccion de la pagina -->   
-    <script src="../js/translate.js"></script>
+    <script src="../js/translates/translate-destinos.js"></script>
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateInit"></script>
     <!-- para eliminar el cuadro de arriba al usar el traductor -->
     <script src="../js/translateremove.js"></script>
@@ -97,5 +421,7 @@
     <script src="../js/scrollleft.js"></script>
     <!-- hace que el texto de las tarjetas se ajuste atomaticamente -->
     <script src="../js/demasiadoTexto.js"></script>
+    <script src="../js/popup.js"></script>
+    <script src="../js/carrusel-pop.js"></script>
 </body>
 </html>

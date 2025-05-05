@@ -1,0 +1,80 @@
+.tarjeta-popup {
+    width: 250px;
+    height: 350px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 20px auto;
+    font-size: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+
+  .modal-popup {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 900px;
+    width: 90%;
+    max-height: 600px;
+    height: 90%;
+    text-align: center;
+  }
+
+  .close-btn {
+    background: red;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  .carousel-pop {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  
+  .carousel-pop img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .carousel-pop-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .carousel-pop-btn.prev {
+    left: 10px;
+  }
+  
+  .carousel-pop-btn.next {
+    right: 10px;
+  }

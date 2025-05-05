@@ -31,21 +31,31 @@
             </div>
             <div class="volkhov-bold menu">
                 <a class="animacion-boton" href="pages/sobrenosotros.html">Sobre nosotros</a>
+<<<<<<< HEAD
                 <a class="animacion-boton" href="pages/destinos.html">Destinos</a>
+                <a class="animacion-boton" href="pages/galerias.html">Galerías</a>
+                <a class="animacion-boton" href="pages/itinerarios.html">Itinerario</a>
+                <a class="animacion-boton" href="pages/experiencias.html">Experiencias</a>
+=======
+                <a class="animacion-boton" href="">Destinos</a>
                 <a class="animacion-boton" href="">Galerías</a>
                 <a class="animacion-boton" href="">Itinerario</a>
                 <a class="animacion-boton" href="">Experiencias</a>
+>>>>>>> 8f51ac7884b616efad88038589ca5f58cea5deab
                 <a class="animacion-boton" href="pages/contactanos.html">Contacto</a>
-                <a class="boton-ghost" href="">Reserva</a>
-                <!-- Botón que cambia entre "EN" y "ES" -->
+                <a class="boton-ghost" href="pages/">Reserva</a>
+                <!-- Botón que cambia entre "EN" y "ES" DEJAR EN CASO DE QUE FALLE EL OTRO -->
+                <!-- <button class="translate" id="translateBtn" onclick="toggleTranslation()">
+                    <i class="fa-solid fa-globe"></i>
+                </button> -->
                 <button class="translate" id="translateBtn" onclick="toggleTranslation()">
                     <i class="fa-solid fa-globe"></i>
-                </button>
+                </button>                  
             </div>
         </nav>
 
         <!-- Google Translate (Oculto) -->
-        <div id="google_translate_element"></div>
+        <!-- <div id="google_translate_element"></div> -->
     </header>
 
     <main>
@@ -56,8 +66,8 @@
                 <p class="poppins-medium">En viaja con el profe nos encargamos de crear experiencias unicas e inolviables, sin dejar la conciencia social y brindando multiples opciones para que cada persona pueda tachar todos los destinos de su lista.</p>
 
                 <div class="botones-hero">
-                    <a class="boton-solido agitar" href="">reserva</a>
-                    <a class="agitar"><i class="fa-solid fa-play boton-circular" style="background-color: var(--naranja); color: #fff;"></i> Próximos viajes</a>
+                    <a class="boton-solido agitar" href="pages/reserva.html">reserva</a>
+                    <a class="agitar" href="pages/itinerarios.html"><i class="fa-solid fa-play boton-circular" style="background-color: var(--naranja); color: #fff;"></i> Próximos viajes</a>
                 </div>
             </div>
 
@@ -262,7 +272,7 @@
                 <form id="subscribeForm">
                   <div class="input-group">
                     <span class="icon">📧</span>
-                    <input type="email" id="email" placeholder="Tu correo" required />
+                    <input type="email" id="email" placeholder="Correo" required />
                   </div>
                   <button class="poppins-bold" type="submit">Enviar</button>
                 </form>
@@ -313,7 +323,7 @@
     </footer>
 
     <!-- Estos dos scrips son para la traduccion de la pagina -->   
-    <script src="js/translate.js"></script>
+    <script src="js/translates/translate-index.js"></script>
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateInit"></script>
     <!-- para eliminar el cuadro de arriba al usar el traductor -->
     <script src="js/translateremove.js"></script>

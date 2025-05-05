@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaja con el profe</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/logo/icon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4df61fafd8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/fuentes.css">
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/botones.css">
+    <link rel="stylesheet" href="../css/colores.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- mantener el este link siempre abajo -->
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body class="volkhov-regular">
+    <div class="mancha"></div>
+    <header>
+        <nav>
+            <div>
+                <a href="../index.html"><img src="../images/logo/logo.gif" alt=""></a>
+            </div>
+            <div class="volkhov-bold menu">
+                <a class="animacion-boton" href="sobrenosotros.html">Sobre nosotros</a>
+                <a class="animacion-boton" href="destinos.html">Destinos</a>
+                <a class="animacion-boton" href="galerias.html">Galerías</a>
+                <a class="animacion-boton" href="itinerarios.html">Itinerario</a>
+                <a class="animacion-boton" href="experiencias.html">Experiencias</a>
+                <a class="animacion-boton" href="contactanos.html">Contacto</a>
+                <a class="boton-ghost" href="reserva.html">Reserva</a>
+                <!-- Botón que cambia entre "EN" y "ES" DEJAR EN CASO DE QUE FALLE EL OTRO -->
+                <!-- <button class="translate" id="translateBtn" onclick="toggleTranslation()">
+                    <i class="fa-solid fa-globe"></i>
+                </button> -->
+                <button class="translate" id="translateBtn" onclick="toggleTranslation()">
+                    <i class="fa-solid fa-globe"></i>
+                </button>                  
+            </div>
+        </nav>
+
+        <!-- Google Translate (Oculto) -->
+        <!-- <div id="google_translate_element"></div> -->
+    </header>
+
+    <main>
+              
+    </main>
+
+    <footer class="poppins-regular">
+        <section class="foot">
+            <div class="foot">
+                <div>
+                    <img src="../images/logo/logo.gif" alt="">
+                </div>
+
+                <div class="foot-medio">
+                    <div>
+                        <p class="poppins-bold">compañía</p>
+                        <br>
+                        <a href="sobrenosotros.html">sobre nosotros</a>
+                        <a href="">precios</a>
+                        <a href="">itinerarios</a>
+                    </div>
+
+                    <div>
+                        <p class="poppins-bold">contacto</p>
+                        <br>
+                        <a href="">ayuda</a>
+                        <a href="contactanos.html">contáctenos</a>
+                    </div>
+
+                    <div>
+                        <p class="poppins-bold">más</p>
+                        <br>
+                        <a href="">viajes</a>
+                        <a href="destinos.html">destinos</a>
+                        <a href="">lo mas barato</a>
+                    </div>
+                </div>
+
+                <div class="redes-foot">
+                    <a href="https://www.facebook.com/ViajaConElProfe" target="_blank"><i class="fa-brands fa-facebook boton-circular facebook-bg girar cirular-facebook" style="color: #fff;"></i></i></a>
+                    <a href="https://www.instagram.com/viajaconelprofee?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="fa-brands fa-instagram boton-circular instagram-bg girar" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+            <p class="powered poppins-medium">PoweredBy Bertin Camacho and Axel Pineda</p>
+        </section>
+    </footer>
+
+    <!-- Estos dos scrips son para la traduccion de la pagina -->   
+    <script src="../js/translates/translate-itinerarios.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateInit"></script>
+    <!-- para eliminar el cuadro de arriba al usar el traductor -->
+    <script src="../js/translateremove.js"></script>
+    <!-- hacer que la vista siempre se quede donde mismo -->
+    <script src="../js/scrollleft.js"></script>
+    <!-- hace que el texto de las tarjetas se ajuste atomaticamente -->
+    <script src="../js/demasiadoTexto.js"></script>
+</body>
+</html>
